@@ -1,0 +1,22 @@
+{
+  "name": "dapp-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "node ./src/deploy.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "dotenv-safe": "^8.2.0",
+    "ganache": "^7.0.3",
+    "npm": "^8.5.3",
+    "solc": "^0.8.12",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
